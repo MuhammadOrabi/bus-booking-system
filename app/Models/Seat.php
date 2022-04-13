@@ -12,4 +12,9 @@ class Seat extends Model
     public function bus() {
         return $this->belongsTo(Bus::class);
     }
+
+    public function userTrips() {
+        return $this->hasMany(UserTrip::class);
+    }
+
 }
