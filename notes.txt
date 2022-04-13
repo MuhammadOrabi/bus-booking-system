@@ -1,0 +1,42 @@
+bus
+    id
+    plate_number
+
+seats
+    id
+    bus_id
+
+trips
+    id
+    title
+
+stations
+    id
+    title
+
+station_trip
+    trip_id
+    station_id
+    order
+
+bus_trip
+    bus_id
+    trip_id
+    start_time
+    date
+    status
+
+users
+    id
+    name
+
+user_trip
+    user_id
+    trip_id
+    seat_id
+    from_station_id
+    to_station_id
+    status
+
+
+
